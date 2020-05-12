@@ -15,17 +15,19 @@ ul {
     list-style-type: none;
     padding: 0px;
 }
+
 /* Layout */
-#resume-content {
-    display: flex;
-}
+@media (min-width: 860px) {
+    #resume-content {
+        display: flex;
+    }
 
-aside {
-    margin-right: 32px;
-}
-
-#employment-history {
-    flex-grow: 2;
+    aside {
+        margin-right: 32px;
+    }
+    #employment-history {
+        flex-grow: 2;
+    }
 }
 
 /* Utility */
