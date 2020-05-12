@@ -44,7 +44,6 @@ aside {
 .article-heading {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
-    font-style: italic;
     margin-bottom: 0px;
 }
 
@@ -60,6 +59,7 @@ aside {
 .article-heading {
     font-weight: 600;
     margin-bottom: 16px;
+    font-style: italic;
 }
 
 #education-list .school-name {
