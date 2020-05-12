@@ -1,0 +1,104 @@
+/* Global */
+body {
+    font-family: 'Fira Mono', monospace;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.4;
+    background-color: #fefef7;
+    padding: 0 48px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+/* Layout */
+#resume-content {
+    display: flex;
+}
+
+aside {
+    margin-right: 32px;
+}
+
+#employment-history {
+    flex-grow: 2;
+}
+
+/* Utility */
+
+.green {
+    color: #006c65;
+}
+
+.caption {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.8em;
+}
+
+/* Styles */
+#name-heading,
+.article-heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+#name-heading {
+    font-weight: 700;
+    font-size: 4em;
+}
+
+#personal-title {
+    margin-top: 0px;
+}
+
+.article-heading {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+#education-list .school-name {
+    font-weight: 700;
+}
+
+#education-list li {
+    line-height: 1.6;
+}
+
+.skill-category {
+    color: #006c65;
+    font-weight: 700;
+}
+
+.skills-section {
+    margin-bottom: 24px;
+}
+
+#contact-info li {
+    line-height: 1.8;
+}
+
+.email {
+    font-weight: 700;
+}
+
+.employer-name {
+    font-size: 1.4em;
+    margin: 0px;
+    font-weight: 700;
+}
+.position-title {
+    font-size: 1em;
+    margin: 0px;
+    line-height: 2;
+}
+.employment-metadata {
+    margin-bottom: 4px;
+}
+.optional-metadata {
+}
