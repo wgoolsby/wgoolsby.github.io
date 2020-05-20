@@ -11,13 +11,15 @@ a {
     color: rgba(0, 0, 0, 0.87);
 }
 
-ul {
+ul.employer-list,
+ul#education-list,
+ul#contact-info {
     list-style-type: none;
     padding: 0px;
 }
 
 /* Layout */
-@media (min-width: 860px) {
+/* @media (min-width: 860px) {
     #resume-content {
         display: flex;
     }
@@ -28,7 +30,7 @@ ul {
     #employment-history {
         flex-grow: 2;
     }
-}
+} */
 
 /* Utility */
 
